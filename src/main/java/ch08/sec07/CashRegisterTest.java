@@ -3,11 +3,14 @@ package ch08.sec07;
 import org.junit.Test;
 import org.junit.Assert;
 
+//import org.junit.jupiter.api.Test;
+
 public class CashRegisterTest
 {
    private static final double EPSILON = 1E-12;
 
-   @Test public void twoPurchases()
+   @Test
+   public void twoPurchases()
    {
       CashRegister register = new CashRegister();
       register.recordPurchase(0.75);
