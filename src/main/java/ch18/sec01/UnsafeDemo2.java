@@ -17,7 +17,7 @@ public class UnsafeDemo2
       numbers.add(3);
       print(numbers);
       System.out.println("Sum: " + sum(numbers));
-      numbers.add("4"); // Compiler error message
+//      numbers.add("4"); // Compiler error message
       print(numbers); 
       System.out.println("Sum: " + sum(numbers));
    }

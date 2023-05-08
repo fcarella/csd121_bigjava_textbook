@@ -6,7 +6,8 @@ public class Student
    private int id;
 
    public Student(int anId) { id = anId; }
-   public String getId() { return id; }
+//   public String getId() { return id; }
+   public int getId() { return id; }
    // No setId method
 
    public String getName() { return name; }
